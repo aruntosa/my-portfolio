@@ -2,4 +2,4 @@
 
 This is my professional Portfolio
 
-This uses AWS and ReactJS
+Hey Whatsup
