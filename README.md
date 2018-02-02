@@ -9,3 +9,5 @@ Automated with SSH
 Not automated yet
 
 New test
+
+ssh added
