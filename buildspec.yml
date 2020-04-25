@@ -6,7 +6,7 @@
         - echo Nothing
   artifacts:
     files:
-      - index.HTML
+      - index.html
       - favicon.ico
       - Arun-Resume.pdf
       - styles/*
