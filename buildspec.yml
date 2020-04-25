@@ -1,0 +1,13 @@
+  version:  0.1
+
+  phases:
+    build:
+      commands:
+        - echo Nothing
+  artifacts:
+    files:
+      - index.HTML
+      - favicon.ico
+      - Arun-Resume.pdf
+      - styles/*
+      - images/*
