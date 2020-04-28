@@ -31,11 +31,13 @@
     <script type="text/babel" data-presets = "latest">
       const getMessage = (name) => `Welcome to Javascript, ${name}!`;
       const button= document.getElementById('Submit_info');
-
+      const contentArea = document.getElementById('content');
       const messsageArea = document.getElementById("error");
 
       button.addEventListener('click', (evt) => {
         messsageArea.className = "errorBox--hidden";
+        contentArea.textContent = "";
+
         let name = document.getElementById("name").value;
 
         if (name.length < 2) {
@@ -43,7 +45,7 @@
           messsageArea.className = "errorBox";
         }
         else{
-        document.getElementById('content').textContent = getMessage(name);
+          contentArea.textContent = getMessage(name);
       }
       });
     </script>
